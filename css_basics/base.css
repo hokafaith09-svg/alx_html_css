@@ -1,0 +1,16 @@
+/* base.css - global defaults */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; height: 100%; }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #222;
+  background: #fafafa;
+  line-height: 1.5;
+}
+.container { max-width: 1000px; margin: 24px auto; padding: 0 16px; }
+.header { padding: 16px 0; border-bottom: 1px solid #eaeaea; }
+.footer { padding: 12px 0; color: #666; font-size: 14px; text-align: center; }
+a { color: #0366d6; text-decoration: none; }
+a:hover { text-decoration: underline; }
+h1,h2,h3 { margin: 0 0 12px 0; }
