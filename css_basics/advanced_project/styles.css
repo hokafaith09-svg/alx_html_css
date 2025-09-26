@@ -818,3 +818,31 @@ main section:first-of-type button {
 main section:first-of-type button:hover {
     background-color: #004d40;   /* Darker on hover */
 }
+.quote-section {
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center;     /* center vertically */
+  padding: 20px;
+  background-color: #f0f0f0; /* light background */
+}
+
+.quote-block {
+  display: flex;
+  gap: 20px; /* space between image and text */
+}
+
+.quote-text blockquote {
+  font-style: italic;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.quote-text .author {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.quote-text .quote-description {
+  font-size: 0.9rem;
+  color: #555;
+}
