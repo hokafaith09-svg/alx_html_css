@@ -649,3 +649,172 @@ footer .footer-links a:hover {
 footer p {
     margin: 0;
 }
+/* Header styling */
+header {
+  display: flex;              /* horizontal layout */
+  justify-content: space-between; /* space between logo and nav links */
+  align-items: center;        /* vertically center content */
+  padding: 20px 40px;
+  background-color: #ffffff;  /* replace with Figma color */
+}
+
+/* Logo image */
+header img {
+  width: 120px;               /* adjust width to Figma */
+  height: auto;
+}
+
+/* Navigation links */
+header nav a {
+  margin-left: 20px;          /* space between links */
+  text-decoration: none;
+  color: #333333;             /* replace with Figma color */
+  font-weight: 600;
+}
+
+/* Banner styling */
+.banner {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f4f4f4;  /* replace with Figma background */
+}
+
+.banner h1 {
+  font-size: 48px;            /* adjust size per Figma */
+  color: #222222;
+}
+
+.banner p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.banner button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #ff6600;  /* Figma button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* HEADER */
+header {
+    display: flex;             /* Arrange items horizontally */
+    justify-content: space-between; /* Push logo to left, nav to right */
+    align-items: center;       /* Vertically center items */
+    padding: 20px 40px;        /* Space around header */
+    background-color: #f5f5f5; /* Light grey background, adjust as per Figma */
+}
+
+/* Navigation links */
+header nav a {
+    margin-left: 20px;         /* Space between links */
+    text-decoration: none;     /* Remove underline */
+    color: #333;               /* Text color, adjust as needed */
+    font-weight: 500;
+}
+
+/* Logo */
+header .logo {
+    font-size: 28px;           /* Bigger font for logo */
+    font-weight: bold;
+}
+/* BANNER */
+main section:first-of-type {
+    display: flex;             /* Arrange text and button horizontally or vertically */
+    flex-direction: column;    /* Stack heading, paragraph, button */
+    justify-content: center;
+    align-items: flex-start;   /* Align text to the left */
+    padding: 60px 40px;        /* Space around banner */
+    background-color: #e0f7fa; /* Light blue background, adjust to Figma */
+}
+
+/* Banner heading */
+main section:first-of-type h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+/* Banner paragraph */
+main section:first-of-type p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+/* Banner button */
+main section:first-of-type button {
+    padding: 12px 30px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;           /* Adjust based on Figma spacing */
+    background-color: #ffffff;    /* Replace with exact Figma color */
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1); /* Optional subtle shadow */
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header .logo {
+    font-size: 30px;             /* Bigger logo */
+    font-weight: 700;
+    color: #222;                 /* Figma color */
+}
+
+header nav a {
+    margin-left: 25px;           /* Space between nav links */
+    text-decoration: none;
+    color: #555;                 /* Figma link color */
+    font-weight: 500;
+    transition: color 0.3s;      /* Smooth hover effect */
+}
+
+header nav a:hover {
+    color: #00796b;              /* Change color on hover */
+}
+/* BANNER */
+main section:first-of-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 80px 60px;           /* Adjust spacing */
+    background-color: #e0f7fa;    /* Replace with Figma color */
+}
+
+main section:first-of-type h1 {
+    font-size: 52px;              /* Match Figma */
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #222;                  /* Adjust color */
+}
+
+main section:first-of-type p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    color: #555;
+}
+
+main section:first-of-type button {
+    padding: 14px 36px;
+    font-size: 16px;
+    background-color: #00796b;   /* Figma button color */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+main section:first-of-type button:hover {
+    background-color: #004d40;   /* Darker on hover */
+}
